@@ -1,7 +1,5 @@
 fastapi
 uvicorn
+google-genai
 faiss-cpu
-sentence-transformers
-google-generativeai
-numpy
 pypdf
