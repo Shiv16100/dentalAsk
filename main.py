@@ -17,7 +17,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Configuration
 EMBED_MODEL = "models/text-embedding-004"  # consistent 768-dim
-FAISS_DIR = "faiss_store"
+FAISS_DIR = ""
 
 # Load FAISS index
 index = faiss.read_index(f'{FAISS_DIR}/index.faiss')
