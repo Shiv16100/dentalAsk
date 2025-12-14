@@ -5,7 +5,8 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 import faiss
-import google.generativeai as genai
+from google import genai
+
 import numpy as np
 from typing import List
 
