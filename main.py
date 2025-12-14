@@ -24,7 +24,7 @@ index = faiss.read_index('index.faiss')
 
 # Load chunks
 import json
-with open('/chunks.json', 'r', encoding='utf-8') as f:
+with open('chunks.json', 'r', encoding='utf-8') as f:
     chunks = json.load(f)
 
 class QueryRequest(BaseModel):
