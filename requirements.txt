@@ -4,3 +4,4 @@ google-genai
 faiss-cpu
 pypdf
 google-generativeai
+jinja2
