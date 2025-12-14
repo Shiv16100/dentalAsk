@@ -20,11 +20,11 @@ EMBED_MODEL = "models/text-embedding-004"  # consistent 768-dim
 FAISS_DIR = ""
 
 # Load FAISS index
-index = faiss.read_index(f'{FAISS_DIR}/index.faiss')
+index = faiss.read_index('index.faiss')
 
 # Load chunks
 import json
-with open(f'{FAISS_DIR}/chunks.json', 'r', encoding='utf-8') as f:
+with open('/chunks.json', 'r', encoding='utf-8') as f:
     chunks = json.load(f)
 
 class QueryRequest(BaseModel):
